@@ -1,0 +1,19 @@
+{
+  "name": "nodelogin",
+  "version": "1.0.0",
+  "description": "App for login",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "nodemon": "^2.0.3",
+    "pg": "^8.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "author": "Eduard Bargués",
+  "license": "ISC"
+}
