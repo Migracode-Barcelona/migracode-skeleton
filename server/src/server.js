@@ -2,10 +2,10 @@ const secrets = require("./secrets");
 const { Pool } = require("pg");
 const pool = new Pool({
     user: secrets.dbUser,
-    host: 'localhost',
-    database: 'migracode-logIn',
+    host: secrets.dbHost,
+    database: secrets.dbName,
     password: secrets.dbPassword,
-    port: 5432,
+    port: secrets.dbPort,
 })
 
 const express = require("express");
