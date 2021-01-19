@@ -17,3 +17,4 @@ npm install
 
 how to execute front-end and back-end at the same time?
 open 2 terminals with visual code, go inside client and server folders and execute both with npm start
+remove /node_modules if you have dependency problems
